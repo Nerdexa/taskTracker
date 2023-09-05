@@ -2,10 +2,18 @@
   "name": "tasktracker",
   "version": "1.0.0",
   "author": "kamegoro",
-  "license": "ISC",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "sass sass/main.scss css/style.css -w",
+    "lint:style": "stylelint '**/*.{css,scss,sass}'",
+    "lint:style:fix": "stylelint --fix '**/*.{css,scss,sass}'"
+  },
+  "devDependencies": {
+    "postcss": "8.4.29",
+    "prettier": "3.0.3",
+    "sass": "1.66.1",
+    "stylelint": "15.10.3",
+    "stylelint-config-recess-order": "4.3.0",
+    "stylelint-config-recommended-scss": "13.0.0",
+    "stylelint-config-sass-guidelines": "10.0.0"
   }
 }
