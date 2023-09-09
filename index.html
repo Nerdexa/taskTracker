@@ -1,10 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>taskTracker</title>
-    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>ToDo</h1>
+    </header>
+
+    <h2 class="title">YOUR TODO LIST</h2>
+    <button id="alert">アラートボタン</button>
+    <form class="form">
+      <input
+        type="text"
+        placeholder="Maker your TODO list!"
+      />
+      <button type="submit">enter</button>
+    </form>
+    <div class="todo-lists">
+      <div class="todo">
+        <span class="todo-title">todo1</span>
+        <button class="todo-button">Done</button>
+      </div>
+      <div class="todo">
+        <span class="todo-title">todo2</span>
+        <button class="todo-button">Done</button>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="./index.js"
+    ></script>
+  </body>
 </html>

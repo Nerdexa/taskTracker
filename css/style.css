@@ -1,0 +1,39 @@
+/* stylelint-disable max-nesting-depth */
+header {
+  padding: 16px;
+  margin-bottom: 48px;
+  background-color: #ffa500;
+}
+header h1 {
+  font-size: 24px;
+}
+
+.title {
+  text-align: center;
+}
+
+.form {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.todo-lists {
+  width: 300px;
+  padding: 32px;
+  margin: 0 auto;
+  background-color: #ffa500;
+  border-radius: 16px;
+}
+.todo-lists .todo {
+  padding: 4px 0;
+}
+.todo-lists .todo .todo-title {
+  font-size: 18px;
+  color: #fff;
+}
+.todo-lists .todo .todo-button {
+  margin-left: 16px;
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
