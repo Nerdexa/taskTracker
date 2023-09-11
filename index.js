@@ -25,7 +25,7 @@ function addTodoItem() {
     todoElement.appendChild(todoButtonElement);
 
     const todoListElement = document.getElementById('item-list');
-    itemList.appendChild(todoElement);
+    todoListElement.appendChild(todoElement);
 
     getText.value = '';
   }
