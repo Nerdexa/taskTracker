@@ -24,7 +24,7 @@ function addTodoItem() {
     todoButtonElement.textContent = 'Done';
     todoElement.appendChild(todoButtonElement);
 
-    const todoListElement = document.getElementById('itemList');
+    const todoListElement = document.getElementById('item-list');
     itemList.appendChild(todoElement);
 
     getText.value = '';
