@@ -18,24 +18,33 @@
     </header>
 
     <h2 class="title">YOUR TODO LIST</h2>
-    <button id="alert">アラートボタン</button>
     <form class="form">
       <input
+        id="text"
         type="text"
         placeholder="Maker your TODO list!"
       />
-      <button type="submit">enter</button>
+      <button
+        id="enter"
+        type="button"
+      >
+        enter
+      </button>
     </form>
-    <div class="todo-lists">
-      <div class="todo">
+    <ul
+      id="itemList"
+      class="todo-lists"
+    >
+      <li class="todo">
         <span class="todo-title">todo1</span>
         <button class="todo-button">Done</button>
-      </div>
-      <div class="todo">
+      </li>
+      <!-- <li class="todo">
         <span class="todo-title">todo2</span>
         <button class="todo-button">Done</button>
-      </div>
-    </div>
+      </li> -->
+    </ul>
+
     <script
       type="text/javascript"
       src="./index.js"
