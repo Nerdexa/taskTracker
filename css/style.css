@@ -21,6 +21,7 @@ header h1 {
   width: 300px;
   padding: 32px;
   margin: 0 auto;
+  list-style: none;
   background-color: #ffa500;
   border-radius: 16px;
 }
