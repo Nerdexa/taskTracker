@@ -28,3 +28,6 @@ jobs:
 
       - name: Stylelint
         run: bun lint:style
+
+      - name: Eslint
+        run: bun lint:js
