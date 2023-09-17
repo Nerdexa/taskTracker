@@ -2,11 +2,7 @@
 // TODO4: 入力フォームが値が空の場合はボタンは押せないようにする
 // TODO5: TODOの「Done」ボタンが押されたら、そのTODOは一覧から削除される
 
-function alertButton() {
-  alert('アラートです');
-}
-
-function addTodoItem() {
+const addTodoItem = () => {
   const getText = document.getElementById('todo-title-input');
   const inputValue = getText.value;
 
@@ -29,14 +25,15 @@ function addTodoItem() {
 
     getText.value = '';
   }
-}
+};
 
-function main() {
+const main = () => {
   console.log('jsが読み込まれています');
 
-  const buttonElement = document.getElementById('create-todo-button');
-  buttonElement.addEventListener('click', addTodoItem);
-}
+  const todoButtonElement = document.getElementById('create-todo-button');
+  todoButtonElement.addEventListener('click', addTodoItem);
+};
+
 main();
 
 // NOTE: constは定数。letは変数
