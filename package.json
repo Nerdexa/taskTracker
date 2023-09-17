@@ -5,7 +5,8 @@
   "scripts": {
     "compile:sass": "sass sass/main.scss css/style.css -w",
     "lint:style": "stylelint '**/*.{css,scss,sass}'",
-    "lint:style:fix": "stylelint --fix '**/*.{css,scss,sass}'"
+    "lint:style:fix": "stylelint --fix '**/*.{css,scss,sass}'",
+    "lint:js": "eslint --ext js ."
   },
   "devDependencies": {
     "postcss": "8.4.29",
@@ -14,6 +15,7 @@
     "stylelint": "15.10.3",
     "stylelint-config-recess-order": "4.3.0",
     "stylelint-config-recommended-scss": "13.0.0",
-    "stylelint-config-sass-guidelines": "10.0.0"
+    "stylelint-config-sass-guidelines": "10.0.0",
+    "eslint": "8.49.0"
   }
 }

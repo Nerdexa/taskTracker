@@ -2,10 +2,6 @@
 // TODO4: 入力フォームが値が空の場合はボタンは押せないようにする
 // TODO5: TODOの「Done」ボタンが押されたら、そのTODOは一覧から削除される
 
-const alertButton = () => {
-  alert('アラートです');
-};
-
 const addTodoItem = () => {
   const getText = document.getElementById('todo-title-input');
   const inputValue = getText.value;
