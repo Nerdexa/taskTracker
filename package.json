@@ -11,7 +11,7 @@
   "devDependencies": {
     "postcss": "8.4.29",
     "prettier": "3.0.3",
-    "sass": "1.67.0",
+    "sass": "1.68.0",
     "stylelint": "15.10.3",
     "stylelint-config-recess-order": "4.3.0",
     "stylelint-config-recommended-scss": "13.0.0",
