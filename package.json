@@ -9,7 +9,7 @@
     "lint:js": "eslint --ext js ."
   },
   "devDependencies": {
-    "postcss": "8.4.29",
+    "postcss": "8.4.30",
     "prettier": "3.0.3",
     "sass": "1.67.0",
     "stylelint": "15.10.3",
