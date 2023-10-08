@@ -16,6 +16,6 @@
     "stylelint-config-recess-order": "4.3.0",
     "stylelint-config-recommended-scss": "13.0.0",
     "stylelint-config-sass-guidelines": "10.0.0",
-    "eslint": "8.49.0"
+    "eslint": "8.50.0"
   }
 }
