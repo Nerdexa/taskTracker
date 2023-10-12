@@ -17,7 +17,7 @@ function addTodoItem() {
     const todoButtonElement = document.createElement('button');
     todoButtonElement.classList.add('todo-button');
     todoButtonElement.textContent = 'Done';
-    todoButtonElement.addEventListener('click', deleteElement)
+    todoButtonElement.addEventListener('click', deleteElement);
     todoElement.appendChild(todoButtonElement);
 
     const todoListElement = document.getElementById('item-list');

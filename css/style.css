@@ -8,6 +8,10 @@ header h1 {
   font-size: 24px;
 }
 
+body {
+  margin: 0;
+}
+
 .title {
   text-align: center;
 }
