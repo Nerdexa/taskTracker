@@ -1,10 +1,9 @@
-// TODO3: TODO Listにテキストが追加されたら入力フォームの中身は空になる
-// TODO4: 入力フォームが値が空の場合はボタンは押せないようにする
 // TODO5: TODOの「Done」ボタンが押されたら、そのTODOは一覧から削除される
 
 function alertButton() {
   alert('アラートです');
 }
+function removeTodoItem() {}
 
 function addTodoItem() {
   const getText = document.getElementById('todo-title-input');
@@ -12,7 +11,11 @@ function addTodoItem() {
 
   if (inputValue.trim() !== '') {
     const todoElement = document.createElement('li');
+    todoElement.id = crypto.randomUUID();
     todoElement.classList.add('todo');
+    const deleteElement = () => {
+      const targetElement = document.getElementById(todoElement.id);
+    };
 
     const todoTitleElement = document.createElement('span');
     todoTitleElement.classList.add('todo-title');
@@ -34,8 +37,8 @@ function addTodoItem() {
 function main() {
   console.log('jsが読み込まれています');
 
-  const buttonElement = document.getElementById('create-todo-button');
-  buttonElement.addEventListener('click', addTodoItem);
+  const enterButtonElement = document.getElementById('create-todo-button');
+  enterButtonElement.addEventListener('click', addTodoItem);
 }
 main();
 
